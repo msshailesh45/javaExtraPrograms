@@ -1,0 +1,18 @@
+import java.util.*;
+class factorialProgram
+{
+    public static void main(String[] args) 
+    {
+        int fac=1; 
+        System.out.println("Enter a number: "); 
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=1; i<=n; i++)
+        {
+            fac=fac*i;
+        }
+        System.out.println("The factorial: "+fac);
+	System.out.println("Name: M S Shailesh");
+	System.out.println("USN: 1BM23CS172");
+    }
+}
