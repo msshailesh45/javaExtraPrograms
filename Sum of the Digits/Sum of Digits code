@@ -1,0 +1,21 @@
+import java.util.*;
+class sumOfDigitsProgram
+{
+    public static void main(String[] args) 
+    {
+        int n, t, rem=0, sum=0;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a 5 digit number: ");
+        n = sc.nextInt();
+        t=n;
+        while(t>0)
+        {
+            rem = t%10;
+            sum = sum+rem;
+            t = t/10;
+        }
+	      System.out.println("Sum of "+n+" is "+sum);
+        System.out.println("Name: M S Shailesh");
+	      System.out.println("USN: 1BM23CS172");
+    }
+}
