@@ -11,6 +11,6 @@ class ifProgram
     	if(x == y) System.out.println("you won't see this");
     	else System.out.println("Not equal now");
     	System.out.println("Name: M S Shailesh");
-	    System.out.println("USN: 1BM23CS172");
+	System.out.println("USN: 1BM23CS172");
     }
 }
