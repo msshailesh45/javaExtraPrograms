@@ -1,0 +1,11 @@
+class forProgram
+{
+    public static void main(String[] args) 
+    {
+        int x; 
+        for(x = 0; x<10; x = x+2) 
+        System.out.println("This is x:"+x);
+      	System.out.println("Name: M S Shailesh");
+      	System.out.println("USN: 1BM23CS172");
+    }
+}
